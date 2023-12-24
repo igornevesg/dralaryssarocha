@@ -520,7 +520,7 @@ Topbar
 
 #header.header-always-fixed .header-inner, #header.header-always-fixed #header-wrap { position: fixed !important; top: 0 !important; }
 
-.dark #header .header-inner, .dark #header #header-wrap, #header.dark .header-inner, #header.dark #header-wrap { background-color: #000e1f; }
+.dark #header .header-inner, .dark #header #header-wrap, #header.dark .header-inner, #header.dark #header-wrap { background-color: #d6b7b5; }
 
 .dark #header .header-inner #logo a > img, .dark #header .header-inner #logo a [class*="logo-"], .dark #header #header-wrap #logo a > img, .dark #header #header-wrap #logo a [class*="logo-"], #header.dark .header-inner #logo a > img, #header.dark .header-inner #logo a [class*="logo-"], #header.dark #header-wrap #logo a > img, #header.dark #header-wrap #logo a [class*="logo-"] { display: none; }
 
