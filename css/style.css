@@ -4058,9 +4058,9 @@ button.btn.btn-transparent, .btn:not(.close):not(.mfp-close).btn-transparent, a.
 
 button.btn.btn-transparent.btn-inverted, .btn:not(.close):not(.mfp-close).btn-transparent.btn-inverted, a.btn:not([href]):not([tabindex]).btn-transparent.btn-inverted { color: #fff; }
 
-button.btn.btn-primary, .btn:not(.close):not(.mfp-close).btn-primary, a.btn:not([href]):not([tabindex]).btn-primary { background-color: #46c7ff; border-color: #46c7ff; }
+button.btn.btn-primary, .btn:not(.close):not(.mfp-close).btn-primary, a.btn:not([href]):not([tabindex]).btn-primary { background-color: #3d5361; border-color: #3d5361; }
 
-button.btn.btn-primary:hover, button.btn.btn-primary:focus, button.btn.btn-primary:not(:disabled):not(.disabled):active, button.btn.btn-primary:not(:disabled):not(.disabled).active, .btn:not(.close):not(.mfp-close).btn-primary:hover, .btn:not(.close):not(.mfp-close).btn-primary:focus, .btn:not(.close):not(.mfp-close).btn-primary:not(:disabled):not(.disabled):active, .btn:not(.close):not(.mfp-close).btn-primary:not(:disabled):not(.disabled).active, a.btn:not([href]):not([tabindex]).btn-primary:hover, a.btn:not([href]):not([tabindex]).btn-primary:focus, a.btn:not([href]):not([tabindex]).btn-primary:not(:disabled):not(.disabled):active, a.btn:not([href]):not([tabindex]).btn-primary:not(:disabled):not(.disabled).active { background-color: #46c7ff; border-color: #46c7ff; color: #fff; }
+button.btn.btn-primary:hover, button.btn.btn-primary:focus, button.btn.btn-primary:not(:disabled):not(.disabled):active, button.btn.btn-primary:not(:disabled):not(.disabled).active, .btn:not(.close):not(.mfp-close).btn-primary:hover, .btn:not(.close):not(.mfp-close).btn-primary:focus, .btn:not(.close):not(.mfp-close).btn-primary:not(:disabled):not(.disabled):active, .btn:not(.close):not(.mfp-close).btn-primary:not(:disabled):not(.disabled).active, a.btn:not([href]):not([tabindex]).btn-primary:hover, a.btn:not([href]):not([tabindex]).btn-primary:focus, a.btn:not([href]):not([tabindex]).btn-primary:not(:disabled):not(.disabled):active, a.btn:not([href]):not([tabindex]).btn-primary:not(:disabled):not(.disabled).active { background-color: #3d5361; border-color: #3d5361; color: #fff; }
 
 button.btn.btn-secondary, .btn:not(.close):not(.mfp-close).btn-secondary, a.btn:not([href]):not([tabindex]).btn-secondary { background-color: #c1c3ce; border-color: #c1c3ce; }
 
@@ -6840,7 +6840,6 @@ section { padding: 80px 0; position: relative; width: 100%; overflow: hidden; z-
 
 
 @media (max-width: 768px) {
-  
   .diminuir-tamanho {
     font-size: 1.5em !important;
     margin-top: 120px;
@@ -6863,7 +6862,14 @@ section { padding: 80px 0; position: relative; width: 100%; overflow: hidden; z-
     margin-top: 0px;
   }
   .inspiro-slider .slide .slide-captions h1 {
-    margin-bottom: -15px !important;    
+    margin-bottom: -15px !important; 
+    display: none;   
+  }
+  .inspiro-slider .slide .slide-captions h4 {
+    display: none;
+  }
+  .inspiro-slider .slide .slide-captions a {
+    display: none !important;
   }
   .flickity-page-dots {
     display: none;
@@ -7000,6 +7006,9 @@ p, a, span, h4 {
 }
 
 @media (min-width: 767px) {
+  .mob {
+    display: none;
+  }
   .padding-cards {
     padding: 100px !important;
   }
@@ -7027,6 +7036,9 @@ p, a, span, h4 {
 }
 
 @media (max-width:767px) {
+  .desk {
+    display: none;
+  }
   #header .header-inner #logo a {
     float: left;
     margin-left: 10px;
@@ -7064,6 +7076,7 @@ p, a, span, h4 {
   #imagem-mobile {
     display: flex !important;
     align-items: center;
+    height: 60vh;
   }
   
   .dim_but {
@@ -7086,3 +7099,4 @@ p, a, span, h4 {
   position: relative;
   bottom: 5px;
 }
+
