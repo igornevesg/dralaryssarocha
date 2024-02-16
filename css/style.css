@@ -4234,7 +4234,7 @@ button.btn.disabled, .btn:not(.close):not(.mfp-close).disabled, a.btn:not([href]
 
 .disabled .btn { opacity: .3; }
 
-@media (max-width: 991.98px) { button.btn:not(.btn-creative):not(.btn-slide), .btn:not(.close):not(.mfp-close):not(.btn-creative):not(.btn-slide), a.btn:not([href]):not([tabindex]):not(.btn-creative):not(.btn-slide) { font-size: 12px; height: 32px; line-height: 30px; padding: 0 14px; }
+@media (max-width: 991.98px) { button.btn:not(.btn-creative):not(.btn-slide), .btn:not(.close):not(.mfp-close):not(.btn-creative):not(.btn-slide), a.btn:not([href]):not([tabindex]):not(.btn-creative):not(.btn-slide) { font-size: 12px; line-height: 30px; padding: 0 14px; }
   button.btn:not(.btn-creative):not(.btn-slide).btn-reveal:hover span, .btn:not(.close):not(.mfp-close):not(.btn-creative):not(.btn-slide).btn-reveal:hover span, a.btn:not([href]):not([tabindex]):not(.btn-creative):not(.btn-slide).btn-reveal:hover span { left: auto; right: auto; }
   button.btn:not(.btn-creative):not(.btn-slide).btn-reveal:hover i, .btn:not(.close):not(.mfp-close):not(.btn-creative):not(.btn-slide).btn-reveal:hover i, a.btn:not([href]):not([tabindex]):not(.btn-creative):not(.btn-slide).btn-reveal:hover i { display: none; }
   button.btn:not(.btn-creative):not(.btn-slide).btn-lg, .btn:not(.close):not(.mfp-close):not(.btn-creative):not(.btn-slide).btn-lg, a.btn:not([href]):not([tabindex]):not(.btn-creative):not(.btn-slide).btn-lg { font-size: 13px; height: 38px; line-height: 36px; padding: 0 24px; }
@@ -6498,7 +6498,7 @@ body.breakpoint-xl .pricing-table .col-lg-2 .plan-list ul li, body.breakpoint-lg
 
 .timeline .timeline-item { margin: 3rem 2rem 3rem 5rem; }
 
-.timeline .timeline-item > h4 { margin-bottom: 0; }
+.timeline .timeline-item > h4 { margin-bottom: 0; text-align: left !important;}
 
 .timeline .timeline-item .timeline-item-date { font-size: .9rem; margin-bottom: 30px; }
 
