@@ -7039,6 +7039,9 @@ p, a, span, h4 {
   .desk {
     display: none;
   }
+  .order {
+    order: 2;
+  }
   #header .header-inner #logo a {
     float: left;
     margin-left: 10px;
