@@ -770,7 +770,7 @@ Overlay Menu
 .header-logo-center #mainMenu nav > ul:last-child, .menu-split #mainMenu nav > ul:last-child { float: right; }
 
 /*Menu Dark*/
-.dark #mainMenu nav > ul > li > a, #mainMenu.dark nav > ul > li > a { color: #3d5361; }
+.dark #mainMenu nav > ul > li > a, #mainMenu.dark nav > ul > li > a { color: #f5f0ed; }
 
 .dark #mainMenu nav > ul > li.hover-active > a, .dark #mainMenu nav > ul > li.hover-active > span, .dark #mainMenu nav > ul > li.current > a, .dark #mainMenu nav > ul > li.current > span, .dark #mainMenu nav > ul > li:hover > a, .dark #mainMenu nav > ul > li:hover > span, .dark #mainMenu nav > ul > li:focus > a, .dark #mainMenu nav > ul > li:focus > span, #mainMenu.dark nav > ul > li.hover-active > a, #mainMenu.dark nav > ul > li.hover-active > span, #mainMenu.dark nav > ul > li.current > a, #mainMenu.dark nav > ul > li.current > span, #mainMenu.dark nav > ul > li:hover > a, #mainMenu.dark nav > ul > li:hover > span, #mainMenu.dark nav > ul > li:focus > a, #mainMenu.dark nav > ul > li:focus > span { color: #FFF; box-shadow: 0px 1px black }
 
@@ -6506,7 +6506,7 @@ body.breakpoint-xl .pricing-table .col-lg-2 .plan-list ul li, body.breakpoint-lg
 
 .timeline .timeline-item .timeline-item-image img { width: 100%; height: auto; }
 
-.timeline .timeline-item .timeline-icon { background-color: #3d5361; position: absolute; border-radius: 50%; left: 5px; width: 25px; height: 25px; z-index: 3; color: #fff; text-align: center; padding: 5px; font-size: 18px; }
+.timeline .timeline-item .timeline-icon { background-color: #3d5361; position: absolute; border-radius: 50%; left: 5px; margin-top: 5px; width: 20px; height: 20px; z-index: 3; color: #fff; text-align: center; padding: 5px; font-size: 18px; }
 .timeline-icon:hover { -webkit-transform: scale(1.2);
   -ms-transform: scale(1.2);
   transform: scale(1.2);
@@ -6866,6 +6866,9 @@ section { padding: 80px 0; position: relative; width: 100%; overflow: hidden; z-
     display: none;   
   }
   .inspiro-slider .slide .slide-captions h4 {
+    display: none;
+  }
+  .inspiro-slider .slide .slide-captions h3 {
     display: none;
   }
   .inspiro-slider .slide .slide-captions a {
