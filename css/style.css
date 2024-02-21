@@ -6497,7 +6497,7 @@ body.breakpoint-xl .pricing-table .col-lg-2 .plan-list ul li, body.breakpoint-lg
 
 .timeline:before { content: ''; position: absolute; left: 16px; height: 100%; z-index: 2; top: 0; bottom: 0; border-left: 3px solid rgba(255  , 255, 255, .2); }
 
-.timeline .timeline-item { margin: 3rem 2rem 3rem 5rem; }
+.timeline .timeline-item { margin: 3rem 2rem 3rem 1rem; }
 
 .timeline .timeline-item > h4 { margin-bottom: 0; text-align: left !important;}
 
@@ -6985,7 +6985,11 @@ p, a, span, h4 {
   .imagem-contato {
     width: 200px !important;
   }
-
+  .timeline .timeline-item .timeline-icon {
+    width: 15px;
+    height: 15px;
+    margin-top: 8px;
+  }
   .lead {
     font-size: 1em !important;
   }
@@ -7043,8 +7047,8 @@ p, a, span, h4 {
   .desk {
     display: none;
   }
-  .order {
-    order: 2;
+  .top-mg {
+    margin-top: 30px !important;
   }
   #header .header-inner #logo a {
     float: left;
