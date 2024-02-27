@@ -770,7 +770,7 @@ Overlay Menu
 .header-logo-center #mainMenu nav > ul:last-child, .menu-split #mainMenu nav > ul:last-child { float: right; }
 
 /*Menu Dark*/
-.dark #mainMenu nav > ul > li > a, #mainMenu.dark nav > ul > li > a { color: #f5f0ed; }
+.dark #mainMenu nav > ul > li > a, #mainMenu.dark nav > ul > li > a { color: #f5f0ed; font-size: 14px !important; }
 
 .dark #mainMenu nav > ul > li.hover-active > a, .dark #mainMenu nav > ul > li.hover-active > span, .dark #mainMenu nav > ul > li.current > a, .dark #mainMenu nav > ul > li.current > span, .dark #mainMenu nav > ul > li:hover > a, .dark #mainMenu nav > ul > li:hover > span, .dark #mainMenu nav > ul > li:focus > a, .dark #mainMenu nav > ul > li:focus > span, #mainMenu.dark nav > ul > li.hover-active > a, #mainMenu.dark nav > ul > li.hover-active > span, #mainMenu.dark nav > ul > li.current > a, #mainMenu.dark nav > ul > li.current > span, #mainMenu.dark nav > ul > li:hover > a, #mainMenu.dark nav > ul > li:hover > span, #mainMenu.dark nav > ul > li:focus > a, #mainMenu.dark nav > ul > li:focus > span { color: #FFF; box-shadow: 0px 1px black }
 
@@ -7034,13 +7034,19 @@ p, a, span, h4 {
     display: flex !important;
     align-items: center;
   }
-  
+  .txt_desk {
+    font-size: 1.3em;
+  }
 }
 
 @media (max-width:767px) {
   .desk {
     display: none;
   }
+  #header {
+    height: 120px !important;
+  }
+
   .top-mg {
     margin-top: 30px !important;
   }
