@@ -7005,11 +7005,6 @@ p, a, span, h4 {
     margin-bottom: 30px;
   }
 
-  #header.dark .header-inner #logo a .logo-dark {
-    width: 150px !important;
-    height: 100% !important;
-  }
-
 }
 
 @media (min-width: 767px) {
