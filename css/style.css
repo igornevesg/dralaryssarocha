@@ -7044,7 +7044,7 @@ p, a, span, h4 {
     display: none;
   }
   #header {
-    margin-bottom: 50px !important;
+    padding-bottom: 120px !important;
   }
 
   .top-mg {
