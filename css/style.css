@@ -7043,9 +7043,6 @@ p, a, span, h4 {
   .desk {
     display: none;
   }
-  #header {
-    padding-bottom: 120px !important;
-  }
 
   .top-mg {
     margin-top: 30px !important;
