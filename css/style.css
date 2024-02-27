@@ -7108,6 +7108,6 @@ p, a, span, h4 {
 #header.dark .header-inner #logo a .logo-dark {
   padding: 5px !important;
   position: relative;
-  bottom: 5px;
+  top: 2px;
 }
 
