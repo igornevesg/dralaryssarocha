@@ -7102,8 +7102,9 @@ p, a, span, h4 {
   }
   #header {
     background-color: #dfb7b5;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
   }
+
 }
 
 #header.dark .header-inner #logo a .logo-dark {
