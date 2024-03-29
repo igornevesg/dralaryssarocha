@@ -7107,6 +7107,13 @@ p, a, span, h4 {
 
 }
 
+@media (max-width: 400px) {
+  #header {
+    background-color: #dfb7b5;
+    padding-bottom: 80px;
+  }
+}
+
 #header.dark .header-inner #logo a .logo-dark {
   padding: 5px !important;
   position: relative;
